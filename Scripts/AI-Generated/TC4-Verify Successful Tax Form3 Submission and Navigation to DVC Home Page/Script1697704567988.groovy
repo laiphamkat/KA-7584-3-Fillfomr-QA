@@ -1,7 +1,7 @@
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -169,9 +169,79 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/dvc-home/.*/.*(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 13: Add visual checkpoint at Page dvc-home tax-form1 tax-form2 tax-form3'
+'step 13: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input object'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Successful Tax Form Submission from Home Page_visual_checkpoint')
+testObj = findTestObject('Object Repository/Page_dvc-home/input_object')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/dvc-home/.*/.*/.*(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.setText(testObj, var_5_input_object)
+
+'step 14: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input object'
+
+testObj = findTestObject('Object Repository/Page_dvc-home/input_object_1')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/dvc-home/.*/.*/.*(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.setText(testObj, var_6_input_object_1)
+
+'step 15: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input object'
+
+testObj = findTestObject('Object Repository/Page_dvc-home/input_object_2')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/dvc-home/.*/.*/.*(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.setText(testObj, var_7_input_object_2)
+
+'step 16: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input object'
+
+testObj = findTestObject('Object Repository/Page_dvc-home/input_object_3')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/dvc-home/.*/.*/.*(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.setText(testObj, var_8_input_object_3)
+
+'step 17: At Page dvc-home tax-form1 tax-form2 tax-form3 click on button object --> navigate to Page dvc-home'
+
+testObj = findTestObject('Object Repository/Page_dvc-home/button_object')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/dvc-home/.*/.*/.*(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 18: Add visual checkpoint at Page dvc-home'
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Successful Tax Form3 Submission and Navigation to DVC Home Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

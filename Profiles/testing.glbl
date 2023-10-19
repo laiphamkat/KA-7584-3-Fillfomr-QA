@@ -2,11 +2,11 @@
 <GlobalVariableEntities>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>''https://laiphamkat-fill-form.vercel.app''</initValue>
+        <initValue>'https://laiphamkat-fill-form.vercel.app'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>qe</name>
+    <name>testing</name>
     <tag></tag>
 </GlobalVariableEntities>
