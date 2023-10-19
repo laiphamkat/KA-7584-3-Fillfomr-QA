@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page dvc-home tax-form1'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Page DVC Home Tax Form1 is Displayed_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Navigation to Dvc Home Tax Form1 Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

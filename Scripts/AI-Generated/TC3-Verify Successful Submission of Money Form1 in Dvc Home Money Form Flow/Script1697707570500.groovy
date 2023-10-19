@@ -1,6 +1,6 @@
+import com.kms.katalon.core.model.FailureHandling
 import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
@@ -73,7 +73,7 @@ WebUI.enhancedClick(testObj)
 
 'step 6: Add visual checkpoint at Page dvc-home'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Money Form Submission and Navigation to DVC Home Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Successful Submission of Money Form1 in Dvc Home Money Form Flow_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
