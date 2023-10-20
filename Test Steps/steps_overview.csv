@@ -1,42 +1,42 @@
 Flow ID,Description,Test Steps,Flow Priority
-3,Verify Successful Submission of Money Form1 in Dvc Home Money Form Flow,"step 1: Navigate to Page dvc-home money-form1
-step 2: At Page dvc-home money-form1 input on input object
-step 3: At Page dvc-home money-form1 click on button object --> navigate to Page dvc-home money-form1 money-form2
-step 4: At Page dvc-home money-form1 money-form2 input on input object
-step 5: At Page dvc-home money-form1 money-form2 click on button object --> navigate to Page dvc-home
+3,Verify Successful Navigation to Money Form2 and Return to Home Page after Entering Search Text and Text Input,"step 1: Navigate to Page dvc-home money-form1
+step 2: At Page dvc-home money-form1 input on input search
+step 3: At Page dvc-home money-form1 click on button next --> navigate to Page dvc-home money-form1 money-form2
+step 4: At Page dvc-home money-form1 money-form2 input on input text
+step 5: At Page dvc-home money-form1 money-form2 click on button done --> navigate to Page dvc-home
 step 6: Add visual checkpoint at Page dvc-home",High
-1,Verify Successful Login and Navigation to Home Page in Dvc Flow,"step 1: Navigate to Page home
+1,Verify Successful Login and Navigation to Home Page after Entering Username and Password,"step 1: Navigate to Page home
 step 2: At Page home click on button start flow 1 --> navigate to Page dvc-login
-step 3: At Page dvc-login input on input object
-step 4: At Page dvc-login input on input object
-step 5: At Page dvc-login click on button object --> navigate to Page dvc-home
+step 3: At Page dvc-login input on input username
+step 4: At Page dvc-login input on input password
+step 5: At Page dvc-login click on button login --> navigate to Page dvc-home
 step 6: Add visual checkpoint at Page dvc-home",High
-4,Verify Successful Submission of Tax Form3 in Dvc Home Tax Form Flow,"step 1: Navigate to Page dvc-home tax-form1 tax-form2
-step 2: At Page dvc-home tax-form1 tax-form2 input on input object
-step 3: At Page dvc-home tax-form1 tax-form2 input on input object
-step 4: At Page dvc-home tax-form1 tax-form2 input on input object
-step 5: At Page dvc-home tax-form1 tax-form2 input on input object
-step 6: At Page dvc-home tax-form1 tax-form2 click on input object
-step 7: At Page dvc-home tax-form1 tax-form2 click on input object
-step 8: At Page dvc-home tax-form1 tax-form2 click on input object
-step 9: At Page dvc-home tax-form1 tax-form2 click on input object
-step 10: At Page dvc-home tax-form1 tax-form2 click on input object
-step 11: At Page dvc-home tax-form1 tax-form2 click on input object
-step 12: At Page dvc-home tax-form1 tax-form2 click on button object --> navigate to Page dvc-home tax-form1 tax-form2 tax-form3
-step 13: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input object
-step 14: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input object
-step 15: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input object
-step 16: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input object
-step 17: At Page dvc-home tax-form1 tax-form2 tax-form3 click on button object --> navigate to Page dvc-home
-step 18: Add visual checkpoint at Page dvc-home",High
-2,Verify Successful Completion of Contact Step2 in Contact Form Flow,"step 1: Navigate to Page contact step1
-step 2: At Page contact step1 input on input object
-step 3: At Page contact step1 click on input object
-step 4: At Page contact step1 click on input object
-step 5: At Page contact step1 click on input object
-step 6: At Page contact step1 click on button object --> navigate to Page contact step2
-step 7: Add visual checkpoint at Page contact step2",Medium
-5,Verify Navigation to Contact Page,"step 1: Navigate to Page contact
-step 2: Add visual checkpoint at Page contact",Low
-6,Verify Navigation to Dvc Home Tax Form1 Page,"step 1: Navigate to Page dvc-home tax-form1
-step 2: Add visual checkpoint at Page dvc-home tax-form1",Low
+4,Verify Successful Navigation to Tax Form3 and Return to Home Page after Entering Personal Information and Address Detail,"step 1: Navigate to Page dvc-home tax-form1 tax-form2
+step 2: At Page dvc-home tax-form1 tax-form2 input on input name
+step 3: At Page dvc-home tax-form1 tax-form2 input on input address
+step 4: At Page dvc-home tax-form1 tax-form2 input on input phone
+step 5: At Page dvc-home tax-form1 tax-form2 input on input email
+step 6: At Page dvc-home tax-form1 tax-form2 click on input combo box demo
+step 7: At Page dvc-home tax-form1 tax-form2 click on li combo box demo option 4
+step 8: At Page dvc-home tax-form1 tax-form2 click on input combo box demo
+step 9: At Page dvc-home tax-form1 tax-form2 click on li combo box demo option 4
+step 10: At Page dvc-home tax-form1 tax-form2 click on input combo box demo
+step 11: At Page dvc-home tax-form1 tax-form2 click on li combo box demo option 4
+step 12: At Page dvc-home tax-form1 tax-form2 click on button next --> navigate to Page dvc-home tax-form1 tax-form2 tax-form3
+step 13: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input address
+step 14: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input province
+step 15: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input district
+step 16: At Page dvc-home tax-form1 tax-form2 tax-form3 input on input village
+step 17: At Page dvc-home tax-form1 tax-form2 tax-form3 click on button done --> navigate to Page dvc-home
+step 18: Add visual checkpoint at Page dvc-home",Medium
+2,Verify Successful Navigation to Step2 of Contact Form after Entering Email and Selecting Demo Option,"step 1: Navigate to Page contact step1
+step 2: At Page contact step1 input on input contact email
+step 3: At Page contact step1 click on input combo box demo
+step 4: At Page contact step1 click on li combo box demo option 2
+step 5: At Page contact step1 click on input contact switch
+step 6: At Page contact step1 click on button contact next --> navigate to Page contact step2
+step 7: Add visual checkpoint at Page contact step2",Low
+6,Verify Successful Navigation to Tax Form1 Page,"step 1: Navigate to Page dvc-home tax-form1
+step 2: Add visual checkpoint at Page dvc-home tax-form1",Trivial
+5,Verify Successful Navigation to Contact Page,"step 1: Navigate to Page contact
+step 2: Add visual checkpoint at Page contact",Trivial
